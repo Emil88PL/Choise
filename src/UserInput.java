@@ -8,7 +8,7 @@ public class UserInput {
         System.out.print("Enter number between 1 and 10: ");
         
         int userNumber = myObj.nextInt();
-        myObj.close();
+        //
         return userNumber;
     }
 
